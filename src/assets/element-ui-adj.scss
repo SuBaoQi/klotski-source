@@ -1,0 +1,13 @@
+body {
+    .el-message-box {
+        max-width: 95%;
+        max-height: 50%;
+        overflow-y: auto;
+    }
+    .el-dialog {
+        max-width: 95%;
+        max-height: 70%;
+        overflow-y: auto;
+        text-align: left;
+    }
+}

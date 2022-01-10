@@ -1,0 +1,70 @@
+@charset "utf-8";
+[class^="rj-icon-"],
+[class*=" rj-icon-"] {
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.rj-icon-vue-logo{
+  background: url(./img/logo.png);
+  width: 200px;
+  height: 200px;
+}
+
+.person {
+  &--caocao {
+    display: inline-block;
+    // background: url($caocao) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+  }
+  &--zhangfei {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    // background: center center url($zhangfei) no-repeat;
+    background-size: 100%;
+  }
+  &--zhaoyun {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    // background: center center url($zhaoyun) no-repeat;
+    background-size: 100%;
+  }
+  &--machao {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    // background: center center url($machao) no-repeat;
+    background-size: 100%;
+  }
+  &--guanyu {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    // background: center center url($guanyu) no-repeat;
+    background-size: 100%;
+  }
+  &--huangzhong {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    // background: center center url($huangzhong) no-repeat;
+    background-size: 100%;
+  }
+  &--xiaobing {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    // background: center center url($xiaobing) no-repeat;
+    background-size: 100%;
+  }
+}
+
+.banner {
+  background: url($banner) no-repeat;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}

@@ -1,0 +1,36 @@
+.walkway {
+    &__content {
+        position: relative;
+        height: 80%;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &__footer {
+        height: 20%;
+        padding: 0 2px;
+        &--operation {
+            display: flex;
+            display: -webkit-flex;
+            flex-wrap: wrap;
+            padding-top: 10px;
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-start;
+            .count {
+                // margin-right: 25px;
+            }
+            .select {
+                width: 105px;
+                // margin-left: 25px;
+                // margin-right: 25px;
+            }
+            .about {
+                // float: right;
+            }
+        }
+    }
+    &--sound {
+        display: none;
+    }
+}
